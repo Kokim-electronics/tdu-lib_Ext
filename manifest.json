@@ -3,7 +3,7 @@
     "description": "電大図書館自動ログイン",
     "version": "1.1.0",
     "manifest_version": 3,
-    "homepage_url": "https://tdu-lib.mrcl.dendai.ac.jp/",
+    "homepage_url": "https://github.com/Kokim-electronics/tdu-lib_Ext",
     "permissions": [
         "storage"
     ],
