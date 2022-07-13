@@ -1,0 +1,37 @@
+﻿{
+    "name": "tdu-lib_Ext",
+    "description": "電大図書館自動ログイン",
+    "version": "1.1.0",
+    "manifest_version": 3,
+    "homepage_url": "https://tdu-lib.mrcl.dendai.ac.jp/",
+    "permissions": [
+        "storage"
+    ],
+    "options_ui": {
+        "page": "options.html"
+    },
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "tdu-lib Login",
+        "default_icon": {
+            "128": "images/128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.mrcl.dendai.ac.jp/*"
+            ],
+            "js": [
+                "js/login-do.js"
+            ]
+        }
+    ]
+}
