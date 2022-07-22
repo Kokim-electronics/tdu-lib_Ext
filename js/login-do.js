@@ -1,6 +1,6 @@
-﻿var aaa = document.querySelectorAll("input[name=userid]");
-if (aaa[0] != undefined) {
-    aaa[0].id = "userid";
+﻿var element = document.querySelectorAll("input[name=userid]");
+if (element[0] != undefined) {
+    element[0].id = "userid";
     chrome.storage.local.get(
         ['uido_id'],
         function (value_id) {
@@ -10,9 +10,9 @@ if (aaa[0] != undefined) {
     );
 }
 
-aaa = document.querySelectorAll("input[type=password]");
-if (aaa[0] != undefined) {
-    aaa[0].id = "pass";
+element = document.querySelectorAll("input[type=password]");
+if (element[0] != undefined) {
+    element[0].id = "pass";
     chrome.storage.local.get(
         ['uido_pass'],
         function (value_pass) {
@@ -24,8 +24,8 @@ if (aaa[0] != undefined) {
     );
 }
 
-aaa = document.getElementsByClassName("show_center");
-console.log(aaa[0]);
-if (aaa[0] != undefined) {
-    aaa[0].click();
+element = document.getElementsByClassName("show_center");
+console.log(element[0]);
+if (element[0] != undefined) {
+    element[0].click();
 }

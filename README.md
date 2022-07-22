@@ -1,4 +1,4 @@
-## tdu-lib_Ext
+## tdu-lib_Ext-v1.1.1
 
 ### Ⅰ.機能
 - [電大OPAC](https://tdu-lib.mrcl.dendai.ac.jp/)のログインを自動化。
@@ -25,4 +25,4 @@ BearOffice/WebClass-Extension: ウェブクラス(WebClass)の利便性を向上
 ### Ⅴ.他大生向け
 manifest.jsonやbackground.jsあたりのURL変えると他の大学でも使えるかも？
 
-最終更新日:2022/07/22 10:40
+最終更新日:2022/07/22 21:30

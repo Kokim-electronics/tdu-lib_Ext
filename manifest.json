@@ -1,11 +1,14 @@
 ﻿{
     "name": "tdu-lib_Ext",
     "description": "電大図書館自動ログイン",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "manifest_version": 3,
     "homepage_url": "https://github.com/Kokim-electronics/tdu-lib_Ext",
     "permissions": [
         "storage"
+    ],
+    "host_permissions": [
+        "https://*.mrcl.dendai.ac.jp/*"
     ],
     "options_ui": {
         "page": "options.html"
@@ -19,7 +22,7 @@
         "service_worker": "background.js"
     },
     "action": {
-        "default_title": "tdu-lib Login",
+        "default_title": "tdu-lib ログイン",
         "default_icon": {
             "128": "images/128.png"
         }
